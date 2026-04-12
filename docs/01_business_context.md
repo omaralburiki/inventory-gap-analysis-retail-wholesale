@@ -1,8 +1,8 @@
 ## Business Context
 
 * Industry: Food, Beverages & Consumer Goods
-* Operation: Retail & Wholesale
+* Operation: Retail & Wholesale (Multi-Branch)
 * Scale: 10,000+ SKUs
-* Locations: 7 branches
+* Locations: 3 Wholesale + 2 Supermarkets + 2 Mini Markets
 
-Multiple SKUs exist for the same product due to different import sources.
+Multiple SKUs exist for the same product due to multi-country sourcing.
