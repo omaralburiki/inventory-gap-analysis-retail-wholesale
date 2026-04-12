@@ -1,27 +1,35 @@
 # 📦 Inventory Gap Analysis — Retail & Wholesale Operations
 
-## 📌 About This Project
+## 📌 A Note on This Project
 
-This case study is based on real operational experience in a retail and wholesale company managing 10,000+ SKUs across multiple branches.
+This case study is built from direct operational observation across a multi-branch retail and wholesale environment handling 10,000+ SKUs in the food, beverages, and consumer goods sector.
 
-The goal is to demonstrate how structured analysis (AS-IS, Root Cause, Gap Analysis) can solve real inventory problems.
+The problems documented here — inventory variance, disconnected systems, manual workarounds — were not theoretical. They were the daily operational reality. The analysis reflects what I observed, the gaps I identified, and the structured approach I believe would have resolved them.
+
+Numbers are estimated ranges based on operational patterns — not audited figures. The methodology is real.
 
 ---
 
 ## 🧭 Business Context
 
-* Industry: Food & Consumer Goods
-* Operation: Retail + Wholesale
-* Scale: 10,000+ SKUs
-* Locations: 7 branches
+A mid-sized trading company operating in the food, beverages, and consumer goods sector across 7 locations (3 wholesale branches, 2 supermarkets, 2 mini-markets).
+
+**Key Complexity:**
+
+* 10,000+ active SKUs
+* Single products with multiple SKUs due to multi-country sourcing
+* High transaction volume
+* Mixed retail and wholesale operations
+
+**System in Use:** Custom-built ERP
 
 ---
 
 ## ⚠️ Problem Statement
 
-Inventory accuracy issues due to manual processes and lack of real-time system control.
+The company was experiencing **significant inventory accuracy failures** driven by a fully manual operation running on a custom ERP with no real inventory control layer.
 
-Estimated variance: 10% – 20%
+**Estimated inventory variance: 10% – 20%**
 
 ---
 
@@ -37,25 +45,11 @@ Estimated variance: 10% – 20%
 
 ---
 
-Full Folder Structure:
+## 💼 About This Project
 
+This project demonstrates structured business analysis based on real operational experience.
 
-inventory-gap-analysis-retail-wholesale/
-│
-├── README.md                          ← Main project file (most important)
-│
-├── docs/
-│   ├── 01_business_context.md         ← Company background
-│   ├── 02_problem_statement.md        ← Problem definition
-│   ├── 03_as_is_process.md            ← Current broken process
-│   ├── 04_gap_analysis.md             ← Core analysis table
-│   ├── 05_root_cause_analysis.md      ← 5 Whys
-│   ├── 06_to_be_process.md            ← Proposed solution
-│   └── 07_kpi_results.md              ← Before vs After metrics
-│
-├── diagrams/
-│   ├── as_is_process_flow.png         ← Current process diagram
-│   └── to_be_process_flow.png         ← Improved process diagram
-│
-└── assets/
-    └── gap_analysis_table.xlsx        ← (Optional - Excel version)
+---
+
+**Omar Al-Buriki**
+ERP | Business Systems | Operations
