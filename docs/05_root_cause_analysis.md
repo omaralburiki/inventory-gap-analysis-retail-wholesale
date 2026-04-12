@@ -1,4 +1,4 @@
-## Root Cause Analysis
+## 🔍 Root Cause Analysis
 
 ### Layer 1 — System Failures
 
@@ -10,23 +10,26 @@
 
 ### Layer 2 — Process Failures
 
-| Gap                       | Description                           |
-| ------------------------- | ------------------------------------- |
-| No stock ownership        | No person accountable per branch      |
-| No validation checkpoints | Items dispatched without confirmation |
-| No cycle counting         | No periodic inventory checks          |
-| No exception handling     | No escalation — manual fixes          |
+| Gap                       | Description                                                |
+| ------------------------- | ---------------------------------------------------------- |
+| No stock ownership        | No person accountable for variance per branch              |
+| No validation checkpoints | Items dispatched without system confirmation               |
+| No cycle counting         | Physical count only at year-end — not periodic             |
+| No exception handling     | If item unavailable, no escalation path — just crossed out |
 
 ### Layer 3 — Human & Behavioral Failures
 
-| Gap                    | Description                         |
-| ---------------------- | ----------------------------------- |
-| Workarounds normalized | Paper became the system             |
-| No training            | Staff relied on manual methods      |
-| No ownership           | No responsibility for data accuracy |
+| Gap                    | Description                                                   |
+| ---------------------- | ------------------------------------------------------------- |
+| Workarounds normalized | Staff adapted to broken process — paper became "the system"   |
+| No training on ERP     | Staff used what they knew — manual always won                 |
+| No process ownership   | Nobody responsible for data quality between POS and Warehouse |
 
-### Summary
+### Summary: Real Root Cause
 
-The ERP was built to record what happened — not to control what should happen.
+> The ERP was built to record what happened — not to control what
+> should happen. Combined with zero process ownership and no
+> accountability structure, manual workarounds became the default
+> operating model across all 7 locations.
 
-This is a governance failure, not just a system failure.
+**This is a governance failure, not just a system failure.**
