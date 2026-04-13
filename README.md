@@ -88,16 +88,9 @@ This is not a data quality problem.
 
 ---
 
-## Project Structure
-erp-inventory-gap-analysis/
-│
-├── README.md
-│
-├── 01_business_context.md
-├── 02_problem_statement.md
-├── 03_as_is_process.md
-├── 04_gap_analysis.md
-├── 05_root_cause_analysis.md
-├── 06_to_be_process.md
-├── 07_kpi_results.md
-├── 08_project_summary.md
+
+---
+
+**Author:** OmarAlburiki   
+**LinkedIn:** linkedin.com/in/omar-alburiki  
+**GitHub:** github.com/omaralburiki  
