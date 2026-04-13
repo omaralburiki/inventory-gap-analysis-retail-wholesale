@@ -44,7 +44,23 @@ AS-IS: WHOLESALE SALES FLOW (Current — Broken State)
        v
 [ORDER COMPLETE]
 ```
+
+
+
+ ### Process Cost Summary
  
+| Metric | Observed Value |
+|--------|---------------|
+| Average transaction time | 15–20 minutes |
+| Physical trips per transaction | 2 (POS → WH → POS) |
+| System updates per transaction | Delayed or missed |
+| Inventory accuracy (system vs. physical) | ~85% |
+| Error rate on invoices | High — manual adjustment at every exception |
+ 
+---
+
+
+
 ### AS-IS Process Diagram
 
 
