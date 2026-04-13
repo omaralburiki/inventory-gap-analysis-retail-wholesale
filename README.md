@@ -12,7 +12,7 @@
  
 ## Table of Contents
  
-1. [Business Context](#1-business-context)
+1. [Business Context](01_business-context)
 2. [Problem Statement](#2-problem-statement)
 3. [AS-IS Process — Current State](#3-as-is-process--current-state)
 4. [Identified Issues](#4-identified-issues)
