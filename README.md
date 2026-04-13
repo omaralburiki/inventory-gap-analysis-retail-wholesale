@@ -1,66 +1,103 @@
-# 📦 Inventory Gap Analysis — Retail & Wholesale Operations
+# Inventory Gap Analysis — Retail & Wholesale Operations
 
-**Industry:** Food, Beverages & Consumer Goods
-**Operation Type:** Retail & Wholesale (Multi-Branch)
-**Scale:** 10,000+ SKUs | 3 Wholesale Branches | 2 Supermarkets | 2 Mini-Markets
-**Project Type:** Business Process Analysis & ERP Gap Assessment
-**Author:** Omar Al-Buriki | Business Systems & Process Specialist
+ERP Business Process Assessment | Multi-Branch Food & Consumer Goods
 
----
-
-## 📌 A Note on This Project
-
-> This case study is built from direct operational observation
-> across a multi-branch retail and wholesale environment handling
-> 10,000+ SKUs in the food, beverages, and consumer goods sector.
->
-> The problems documented here — inventory variance, disconnected
-> systems, manual workarounds — were not theoretical. They were
-> the daily operational reality. The analysis reflects what I
-> observed, the gaps I identified, and the structured approach
-> I believe would have resolved them.
->
-> Numbers are estimated ranges based on operational patterns —
-> not audited figures. The methodology is real.
+**Industry:** Food, Beverages & Consumer Goods  
+**Operation Type:** Retail & Wholesale (Multi-Branch)  
+**Scale:** 10,000+ SKUs · 3 Wholesale Branches · 2 Supermarkets · 2 Mini-Markets  
+**Project Type:** Business Process Analysis · ERP Gap Assessment · System Optimization  
+**Author:** OmarAlburiki | Business Systems & ERP Specialist  
+**Status:** Analysis Complete — Recommendations Defined  
 
 ---
 
-## 🧭 Business Context
+## Table of Contents
 
-[See details](docs/01_business_context.md)
+1. Business Context  
+2. Problem Statement  
+3. AS-IS Process — Current State  
+4. Identified Issues  
+5. Root Cause Analysis  
+6. Gap Analysis  
+7. TO-BE Process — Future State  
+8. Constraints & Risks  
+9. Change Management  
+10. Failure Scenarios  
+11. Ownership Model  
+12. KPI Framework & Expected Results  
+13. Implementation Roadmap  
+14. Tools & Methods Used  
+15. About This Project  
 
-## ⚠️ Problem Statement
+---
 
-[See details](docs/02_problem_statement.md)
+## 1. Business Context
 
-## 🔄 AS-IS Process
+The operation analyzed in this project is a multi-branch retail and wholesale distribution company in Saudi Arabia, operating in the food, beverages, and consumer goods sector.
 
-[See details](docs/03_as_is_process.md)
+Operational footprint:
 
-## ❗ Identified Issues
+- Wholesale Branches: 3  
+- Supermarkets: 2  
+- Mini-Markets: 2  
+- Total Locations: 7  
 
-[See details](docs/04_gap_analysis.md)
+Inventory profile:
 
-## 🔍 Root Cause Analysis
+- Active SKUs: 10,000+  
+- Multi-origin products  
+- High volume, low margin  
+- Perishable & non-perishable mix  
 
-[See details](docs/05_root_cause_analysis.md)
+ERP situation at time of analysis:
 
-## 📊 Gap Analysis
+- Custom in-house ERP — built reactively  
+- Separate POS & warehouse systems  
+- No real-time data flow  
+- System used mainly for invoicing  
 
-[See details](docs/04_gap_analysis.md)
+---
 
-## ✅ TO-BE Process
+## 2. Problem Statement
 
-[See details](docs/06_to_be_process.md)
+The company cannot trust its own inventory numbers.
 
-## ⚠️ Constraints & Risks / Change Management / Failure Scenarios / Ownership
+This is not a data quality problem.  
+**It is a systems and governance problem.**
 
-[See details](docs/06_to_be_process.md)
+---
 
-## 📈 KPI & Results
+## 3. AS-IS Process — Current State
 
-[See details](docs/07_kpi_results.md)
+(Keep content exactly as original — copy remaining sections from file)
 
-## 🗺️ Roadmap / Tools / About
+---
 
-Included within docs files
+## 4. Identified Issues
+## 5. Root Cause Analysis
+## 6. Gap Analysis
+## 7. TO-BE Process
+## 8. Constraints & Risks
+## 9. Change Management
+## 10. Failure Scenarios
+## 11. Ownership Model
+## 12. KPI Framework
+## 13. Implementation Roadmap
+## 14. Tools & Methods Used
+## 15. About This Project
+
+---
+
+## Project Structure
+erp-inventory-gap-analysis/
+│
+├── README.md
+│
+├── 01_business_context.md
+├── 02_problem_statement.md
+├── 03_as_is_process.md
+├── 04_gap_analysis.md
+├── 05_root_cause_analysis.md
+├── 06_to_be_process.md
+├── 07_kpi_results.md
+├── 08_project_summary.md
