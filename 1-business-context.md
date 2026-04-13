@@ -1,0 +1,28 @@
+## 1. Business Context
+ 
+The operation analyzed in this project is a multi-branch retail and wholesale distribution company in Saudi Arabia, operating in the food, beverages, and consumer goods sector.
+ 
+**Operational footprint:**
+ 
+| Channel | Count | Primary Function |
+|---------|-------|-----------------|
+| Wholesale Branches | 3 | B2B sales to retailers, bulk orders |
+| Supermarkets | 2 | B2C retail, walk-in customers |
+| Mini-Markets | 2 | B2C neighborhood retail |
+| **Total Locations** | **7** | Mixed retail + wholesale model |
+ 
+**Inventory profile:**
+- Active SKUs: 10,000+
+- Multi-origin products (same item from different suppliers = separate SKUs in current system)
+- High volume, low margin — typical of food/beverage distribution
+- Perishable and non-perishable mix requiring different handling protocols
+ 
+**ERP situation at time of analysis:**
+- Custom in-house ERP — built reactively without formal requirements design
+- Separate POS system and warehouse system — not integrated
+- No real-time data flow between sales and stock
+- System used primarily for invoicing, not inventory control
+ 
+**The core tension:** The business grew faster than the systems supporting it. Manual workarounds became the default operating model at all 7 locations — not because staff were untrained, but because the system gave them no reliable alternative.
+ 
+---
