@@ -1,26 +1,14 @@
-## ❗ Identified Issues
-
-| # | Issue Area           | Description                                   | Estimated Impact                 |
-| - | -------------------- | --------------------------------------------- | -------------------------------- |
-| 1 | Inventory Accuracy   | Gap between physical stock and system records | 10–20% variance                  |
-| 2 | Real-Time Visibility | No live inventory tracking during dispatch    | Unknown shortages until picked   |
-| 3 | Manual Entry         | 100% manual data entry — no barcode system    | High human error rate            |
-| 4 | System Integration   | POS and Warehouse not connected               | Data silos, delayed updates      |
-| 5 | Customer Experience  | Customer walks POS → Warehouse → POS          | Slow, unprofessional fulfillment |
-| 6 | Purchasing Decisions | No reliable inventory data for buyers         | Overstock & stockout risk        |
-| 7 | SKU Complexity       | Same product, multiple SKUs (multi-origin)    | Miscount, wrong picks, confusion |
-
+## 6. Gap Analysis
+ 
+| # | Process Area | AS-IS | Root Cause | Gap Type | TO-BE | Process Owner | Business Impact |
+|---|-------------|-------|-----------|---------|-------|--------------|----------------|
+| 1 | Inventory Accuracy | 15% avg variance | No real-time deduction on dispatch | System + Process | Auto-deduction at point of scan/dispatch | Warehouse Supervisor | Reduce variance to <3% |
+| 2 | Stock Visibility at POS | Zero visibility into live warehouse stock | POS and WH systems not integrated | System | Live stock check before order confirmation | IT / ERP Owner | Eliminate failed order fulfillment |
+| 3 | Data Entry | 100% manual entry | No barcode hardware | Technology | Barcode scan at dispatch replaces all manual entry | Warehouse Staff | Reduce human error by ~80% |
+| 4 | Process Accountability | No person owns inventory accuracy | Role not defined in org structure | Governance | Defined accountability per touchpoint per branch | Branch Manager | Create measurable variance accountability |
+| 5 | Customer Journey | 3-step physical loop per transaction | No digital confirmation between POS and WH | Process | Digital: order → WH picks → invoice generated | POS Lead | Reduce transaction time by ~60% |
+| 6 | Exception Handling | No protocol when items unavailable | Process never designed for failure scenarios | Process | Documented SOP per exception type — system flags | Operations Lead | Eliminate inconsistent exception resolution |
+| 7 | SKU Governance | Multi-origin duplicates unmanaged | No normalization or origin-attribute model | Data | Normalize SKUs — origin as attribute, not SKU | Procurement | Clean counts, accurate picking |
+| 8 | Purchasing Intelligence | Decisions based on gut estimates | No live inventory feed to procurement | Data + System | Automated reorder points based on live system data | Procurement Manager | Accurate demand planning |
+ 
 ---
-
-## 📊 Gap Analysis Table
-
-| # | Process Area            | AS-IS                             | Root Cause                       | Gap Type         | TO-BE                               | Owner                | Impact                      |
-| - | ----------------------- | --------------------------------- | -------------------------------- | ---------------- | ----------------------------------- | -------------------- | --------------------------- |
-| 1 | Inventory Accuracy      | 15% avg variance                  | No real-time deduction           | System + Process | Auto-deduction on dispatch          | Warehouse Supervisor | Reduce to <3%               |
-| 2 | Stock Visibility at POS | Zero visibility                   | POS-WH not integrated            | System           | Live stock check before confirm     | IT/ERP Owner         | Eliminate failed orders     |
-| 3 | Data Entry              | 100% manual                       | No barcode infrastructure        | Technology       | Barcode scan at dispatch            | Warehouse Staff      | Reduce errors ~80%          |
-| 4 | Process Ownership       | Nobody owns accuracy              | No accountability model          | Governance       | Defined owner per touchpoint        | Branch Manager       | Variance accountability     |
-| 5 | Customer Journey        | 3-step physical loop              | No digital confirmation          | Process          | Digital order → warehouse → invoice | POS Lead             | Cut time ~60%               |
-| 6 | Exception Handling      | No protocol                       | Process not designed for failure | Process          | Documented SOPs per scenario        | Operations Lead      | Reduce daily firefighting   |
-| 7 | SKU Management          | Multi-origin duplicates unmanaged | No SKU governance                | Data             | Normalization + origin attribute    | Procurement          | Clean counts, no mismatches |
-| 8 | Purchasing Data         | Based on gut/estimates            | No live inventory feed           | Data + System    | Automated purchasing decisions      | Procurement          | Accurate demand planning    |
